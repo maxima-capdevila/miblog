@@ -23,6 +23,9 @@
   html {
     @apply h-full text-[16px];
   }
+  /*header {
+    background-color:#C3F3E5;
+  }*/
 
   @media (min-width: 1024px) {
     html {

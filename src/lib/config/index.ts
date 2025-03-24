@@ -1,11 +1,10 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
-  description: "A news website built with Astro",
+  title: "Maxima Escritos",
+  description: "Blog de escritos de Maxima Capdevila",
   author: "Mohammad Rahmani",
-  url: "https://astro-news-six.vercel.app",
-  github: "https://github.com/Mrahmani71/astro-news",
+  url: "https://maxima-escritos.vercel.app",
   locale: "en-US",
   dir: "ltr",
   charset: "UTF-8",
@@ -15,85 +14,47 @@ export const SITE = {
 
 export const NAVIGATION_LINKS: Link[] = [
   {
-    href: "/categories/technology",
-    text: "Technology",
+    href: "/categories/politica",
+    text: "Politica",
   },
   {
-    href: "/categories/programming",
-    text: "Programming",
+    href: "/categories/deportes",
+    text: "Deportes",
   },
   {
-    href: "/categories/lifestyle",
-    text: "Lifestyle",
+    href: "/categories/cultura",
+    text: "Cultura",
   },
   {
-    href: "/categories/productivity",
-    text: "Productivity",
+    href: "/categories/sociedad",
+    text: "Sociedad",
   },
   {
-    href: "/categories/health",
-    text: "Health",
-  },
-  {
-    href: "/categories/finance",
-    text: "Finance",
-  },
+    href: "/categories/redacciones",
+    text: "Redacciones",
+  }
 ];
 
 export const OTHER_LINKS: Link[] = [
   {
     href: "/about",
-    text: "About us",
+    text: "Sobre el blog",
   },
   {
     href: "/authors",
-    text: "Authors",
-  },
-  {
-    href: "/contact",
-    text: "Contact",
-  },
-  {
-    href: "/privacy",
-    text: "Privacy",
-  },
-  {
-    href: "/terms",
-    text: "Terms",
-  },
-  {
-    href: "/cookie-policy",
-    text: "Cookie Policy",
-  },
-  {
-    href: "https://astro-news-six.vercel.app/rss.xml",
-    text: "RSS",
-  },
-  {
-    href: "https://astro-news-six.vercel.app/sitemap-index.xml",
-    text: "Sitemap",
-  },
+    text: "Autores",
+  }
 ];
 
 export const SOCIAL_LINKS: Link[] = [
   {
-    href: "https://github.com",
-    text: "GitHub",
-    icon: "github",
-  },
-  {
-    href: "httpe://www.t.me",
-    text: "Telegram",
+    href: "https://www.instagram.com/opiniones_para.vos/",
+    text: "Instagram",
     icon: "telegram",
   },
   {
-    href: "https://twitter.com",
-    text: "Twitter",
-    icon: "newTwitter",
-  },
-  {
-    href: "https://www.facebook.com",
-    text: "Facebook",
-    icon: "facebook",
-  },
+    href: "https://www.instagram.com/informate_delsur2025/",
+    text: "Instagram",
+    icon: "telegram",
+  }
 ];
